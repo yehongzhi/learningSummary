@@ -32,7 +32,7 @@
     </a>
 </p>
 
-![](https://static.lovebilibili.com/mindmap_github.png)
+![](https://static.lovebilibili.com/mindmap_github_yasuo.png)
 
 # 目录（善用Ctrl+F）
 
@@ -90,14 +90,14 @@
   
 ## 面经分享
 
-  <a href="https://mp.weixin.qq.com/s/AQtWzr1ceKZmAmIhnR4RdA">记一次高级java开发的面试题总结</a>
+  <a href="https://mp.weixin.qq.com/s/AQtWzr1ceKZmAmIhnR4RdA" target="_blank">记一次高级java开发的面试题总结</a>
   
 <p>
     <a name="微信"></a>
 </p>
 
 <p align="center">
-    <img src="https://static.lovebilibili.com/dashacha.png"/>
+    <img src="https://static.lovebilibili.com/dashacha_yasuo.png"/>
 </p>
 
 想加入技术群可加我个人微信备注"加群"即可。

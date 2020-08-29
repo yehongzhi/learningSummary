@@ -79,6 +79,8 @@
   <a href="https://mp.weixin.qq.com/s/Kb0pP8eWBl8zjn7scbUpWA" target="_blank">超详细canal入门，看这篇就够了</a>
   
   <a href="https://mp.weixin.qq.com/s/4-3AlDygYxFOUAw0iqAsqg" target="_blank">Canal+Kafka实现MySQL与Redis数据同步</a>
+    
+  <a href="https://mp.weixin.qq.com/s/Y1GY4OtpeGvv0U3HNbE9iA" target="_blank">学会MySQL主从复制读写分离，看这篇就够了</a>
 
 ## 中间件
 

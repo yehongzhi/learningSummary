@@ -4,6 +4,10 @@
 
 **如果觉得有用的话，给个Star鼓励一下吧**~
 
+图标链接制作来源于：https://shields.io/
+
+在线脑图制作：https://www.processon.com/
+
 <p align="center">
     <img src="https://static.lovebilibili.com/github_index.jpg"/>
 </p>
@@ -11,6 +15,9 @@
 <p align="center">
     <a href="#微信" style="text-decoration:none;">
         <img src="https://img.shields.io/badge/WeChat-%E5%85%AC%E4%BC%97%E5%8F%B7-green" alt="公众号" />
+    </a>
+    <a href="https://me.lovebilibili.com/" target="_blank" style="text-decoration:none;">
+        <img src="https://img.shields.io/badge/blog-%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-yellow" alt="个人博客" />
     </a>
     <a href="https://www.toutiao.com/c/user/104760648643/" target="_blank" style="text-decoration:none;">
         <img src="https://img.shields.io/badge/toutiao-%E5%A4%B4%E6%9D%A1-red" alt="头条" />
@@ -53,6 +60,10 @@
   <a href="https://mp.weixin.qq.com/s/LDUJdTSU35HN4Y1geYV2yA" target="_blank">适配器模式与SpringMVC</a>
   
   <a href="https://mp.weixin.qq.com/s/FlA3BQ0KWe4jLrK14FVJTw" target="_blank">面试官：兄弟，讲一下责任链模式</a>
+
+## JVM核心知识
+
+  <a href="https://mp.weixin.qq.com/s/cA4VnufqC2MGqY_LnUoWiA" target="_blank">详细讲解！从JVM直到类加载器</a>
 
 ## 必学的优秀技术框架
 

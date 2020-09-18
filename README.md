@@ -65,6 +65,10 @@
 
   <a href="https://mp.weixin.qq.com/s/cA4VnufqC2MGqY_LnUoWiA" target="_blank">详细讲解！从JVM直到类加载器</a>
 
+## 数据结构与算法
+
+  <a href="https://mp.weixin.qq.com/s/e_XLtmnu-CYBKWivqeiyeA" target="_blank">经典八种排序算法总结(带动画演示)</a>
+
 ## 必学的优秀技术框架
 
   <a href="https://mp.weixin.qq.com/s/licKK-8n9N6LNWEkTtj-Aw" target="_blank">SpringMVC全局异常处理机制</a>

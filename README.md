@@ -61,6 +61,10 @@
   
   <a href="https://mp.weixin.qq.com/s/FlA3BQ0KWe4jLrK14FVJTw" target="_blank">面试官：兄弟，讲一下责任链模式</a>
 
+## 并发编程的艺术
+
+  <a href="https://mp.weixin.qq.com/s/yxuGChcIga7SUe0hNMagsg" target="_blank">面试官问我什么是JMM</a>
+
 ## JVM核心知识
 
   <a href="https://mp.weixin.qq.com/s/cA4VnufqC2MGqY_LnUoWiA" target="_blank">详细讲解！从JVM直到类加载器</a>

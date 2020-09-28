@@ -95,6 +95,10 @@
   
   <a href="https://mp.weixin.qq.com/s/fS-GlvOJNFRr4UGRlQC2mQ" target="_blank">详细讲解！从秒杀聊到ZooKeeper分布式锁</a>
 
+## 微服务架构
+
+  <a href="https://mp.weixin.qq.com/s/ZWkCuBHiZay6tawdPRDMew" target="_blank">SpringCloud微服务：注册中心</a>
+
 ## MySQL数据库
 
   <a href="https://mp.weixin.qq.com/s/Kb0pP8eWBl8zjn7scbUpWA" target="_blank">超详细canal入门，看这篇就够了</a>

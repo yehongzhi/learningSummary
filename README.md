@@ -100,6 +100,8 @@
 ## 微服务架构
 
   <a href="https://mp.weixin.qq.com/s/ZWkCuBHiZay6tawdPRDMew" target="_blank">SpringCloud微服务：注册中心</a>
+  
+  <a href="https://mp.weixin.qq.com/s/di2oyCDy7xrAp7rv9eIjFw" target="_blank">SpringCloud微服务：OpenFeign</a>
 
 ## MySQL数据库
 

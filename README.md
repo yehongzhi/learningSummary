@@ -78,6 +78,8 @@
   <a href="https://mp.weixin.qq.com/s/licKK-8n9N6LNWEkTtj-Aw" target="_blank">SpringMVC全局异常处理机制</a>
   
   <a href="https://mp.weixin.qq.com/s/yGP_34nilJp3QKyM3RaO2w" target="_blank">5千字的SpringMVC总结，我觉得你会需要</a>
+  
+  <a href="https://mp.weixin.qq.com/s/UPU69jhDEHZaZ4hdJ2rTxg" target="_blank">硬核！从设计模式上剖析Mybatis源码</a>
 
 ## 网络编程
 

@@ -64,6 +64,8 @@
 ## 并发编程的艺术
 
   <a href="https://mp.weixin.qq.com/s/yxuGChcIga7SUe0hNMagsg" target="_blank">面试官问我什么是JMM</a>
+  
+  <a href="https://mp.weixin.qq.com/s/QDfIYPFLtLwx0gZfKqwS-Q" target="_blank">多线程开发，先学会线程池吧</a>
 
 ## JVM核心知识
 

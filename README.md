@@ -66,6 +66,8 @@
   <a href="https://mp.weixin.qq.com/s/yxuGChcIga7SUe0hNMagsg" target="_blank">面试官问我什么是JMM</a>
   
   <a href="https://mp.weixin.qq.com/s/QDfIYPFLtLwx0gZfKqwS-Q" target="_blank">多线程开发，先学会线程池吧</a>
+  
+  <a href="https://mp.weixin.qq.com/s/UdoaiQUZLfly_S1Hs_t7ag" target="_blank">并发编程里的悲观锁和乐观锁</a>
 
 ## JVM核心知识
 

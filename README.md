@@ -86,6 +86,8 @@
   <a href="https://mp.weixin.qq.com/s/UPU69jhDEHZaZ4hdJ2rTxg" target="_blank">硬核！从设计模式上剖析Mybatis源码</a>
   
   <a href="https://mp.weixin.qq.com/s/GVBrFoJAkD2yW4rCIbEa2g" target="_blank">SpringBoot启动都做了什么？看完就懂了！</a>
+  
+  <a href="https://mp.weixin.qq.com/s/o-abJ8AWlosZqqkfctoTAw" target="_blank">Spring用了哪些设计模式？</a>
 
 ## 网络编程
 

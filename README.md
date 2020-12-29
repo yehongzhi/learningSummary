@@ -72,6 +72,8 @@
 ## JVM核心知识
 
   <a href="https://mp.weixin.qq.com/s/cA4VnufqC2MGqY_LnUoWiA" target="_blank">详细讲解！从JVM直到类加载器</a>
+  
+  <a href="https://mp.weixin.qq.com/s/7ju2RuFKoUYwzBCXzPbE6w" target="_blank">聊聊JVM中的垃圾回收(GC)</a>
 
 ## 数据结构与算法
 

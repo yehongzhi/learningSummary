@@ -68,6 +68,8 @@
   <a href="https://mp.weixin.qq.com/s/QDfIYPFLtLwx0gZfKqwS-Q" target="_blank">多线程开发，先学会线程池吧</a>
   
   <a href="https://mp.weixin.qq.com/s/UdoaiQUZLfly_S1Hs_t7ag" target="_blank">并发编程里的悲观锁和乐观锁</a>
+  
+  <a href="https://mp.weixin.qq.com/s/gr0i1HGZHbI3xmhyyFiuYQ" target="_blank">死磕synchronized关键字底层原理</a>
 
 ## JVM核心知识
 

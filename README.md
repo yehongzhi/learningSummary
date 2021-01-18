@@ -77,6 +77,10 @@
   
   <a href="https://mp.weixin.qq.com/s/7ju2RuFKoUYwzBCXzPbE6w" target="_blank">聊聊JVM中的垃圾回收(GC)</a>
 
+## 缓存服务
+
+  <a href="https://mp.weixin.qq.com/s/iwwHIa6GYFnoMcnw7JfqMQ" target="_blank">深入探索Redis的五种基础数据类型</a>
+
 ## 数据结构与算法
 
   <a href="https://mp.weixin.qq.com/s/e_XLtmnu-CYBKWivqeiyeA" target="_blank">经典八种排序算法总结(带动画演示)</a>

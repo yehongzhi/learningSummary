@@ -80,6 +80,8 @@
 ## 缓存服务
 
   <a href="https://mp.weixin.qq.com/s/iwwHIa6GYFnoMcnw7JfqMQ" target="_blank">深入探索Redis的五种基础数据类型</a>
+  
+  <a href="https://mp.weixin.qq.com/s/vjof5CdJaRuoPMf6J5sMdA" target="_blank">Redis-缓存雪崩、缓存击穿、缓存穿透</a>
 
 ## 数据结构与算法
 

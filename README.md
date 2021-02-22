@@ -69,6 +69,8 @@
   
   <a href="https://mp.weixin.qq.com/s/UdoaiQUZLfly_S1Hs_t7ag" target="_blank">并发编程里的悲观锁和乐观锁</a>
   
+  <a href="https://mp.weixin.qq.com/s/FjLl9POXHqI8ca9EQHCCCw" target="_blank">详细讲解并发编程中不得不学的AQS<a/>
+  
   <a href="https://mp.weixin.qq.com/s/gr0i1HGZHbI3xmhyyFiuYQ" target="_blank">死磕synchronized关键字底层原理</a>
 
 ## JVM核心知识

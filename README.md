@@ -85,9 +85,13 @@
   
   <a href="https://mp.weixin.qq.com/s/ajoOjIb08dunypbRBD4Wlw" target="_blank">玩转布隆过滤器，其实很简单</a>
 
+  <a href="https://mp.weixin.qq.com/s/FPt5rJIpHAe0psFo6inxUg" target="_blank">Redis如何实现分布式锁</a>
+
 ## 数据结构与算法
 
   <a href="https://mp.weixin.qq.com/s/e_XLtmnu-CYBKWivqeiyeA" target="_blank">经典八种排序算法总结(带动画演示)</a>
+
+  <a href="https://mp.weixin.qq.com/s/-0xLjpT_QML9ogwNlSThIA" target="_blank">经典leetcode算法题分享(字符串)</a>
 
 ## 必学的优秀技术框架
 

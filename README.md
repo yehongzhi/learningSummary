@@ -153,6 +153,8 @@
   
   <a href="https://mp.weixin.qq.com/s/KGCER3TWLT6Yk_UwsYJZyA" target="_blank">详细讲解！RabbitMQ防止数据丢失</a>
   
+  <a href="https://mp.weixin.qq.com/s/t5fMV6KGUxfCergngyBhuw" target="_blank">带你入门Kafka，你知道的越多不知道的也越多！</a>
+  
 ## 遇到的坑
 
   <a href="https://mp.weixin.qq.com/s/TJilUSaSVvjibhIivyJJwQ" target="_blank">List集合的坑</a>

@@ -154,6 +154,10 @@
   <a href="https://mp.weixin.qq.com/s/KGCER3TWLT6Yk_UwsYJZyA" target="_blank">详细讲解！RabbitMQ防止数据丢失</a>
   
   <a href="https://mp.weixin.qq.com/s/t5fMV6KGUxfCergngyBhuw" target="_blank">带你入门Kafka，你知道的越多不知道的也越多！</a>
+
+## Java基础
+
+  <a href="https://mp.weixin.qq.com/s/UFWx5ZBjY9Nsxb-Lf84euw" target="_blank">Java基础不简单，讲一讲枚举</a>
   
 ## 遇到的坑
 

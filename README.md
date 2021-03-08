@@ -159,6 +159,8 @@
 
   <a href="https://mp.weixin.qq.com/s/UFWx5ZBjY9Nsxb-Lf84euw" target="_blank">Java基础不简单，讲一讲枚举</a>
   
+  <a href="https://mp.weixin.qq.com/s/J5lqxFj64A9LO0n7dgCJ7g" target="_blank">怎么在Java中自定义注解？</a>
+  
 ## 遇到的坑
 
   <a href="https://mp.weixin.qq.com/s/TJilUSaSVvjibhIivyJJwQ" target="_blank">List集合的坑</a>

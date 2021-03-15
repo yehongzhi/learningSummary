@@ -94,6 +94,8 @@
   <a href="https://mp.weixin.qq.com/s/e_XLtmnu-CYBKWivqeiyeA" target="_blank">经典八种排序算法总结(带动画演示)</a>
 
   <a href="https://mp.weixin.qq.com/s/-0xLjpT_QML9ogwNlSThIA" target="_blank">经典leetcode算法题分享(字符串)</a>
+  
+  <a href="https://mp.weixin.qq.com/s/-ZNnqGWKjMoP7UhnwH6qPg" target="_blank">十连发，Leetcode算法题分享(哈希表)</a>
 
 ## 必学的优秀技术框架
 

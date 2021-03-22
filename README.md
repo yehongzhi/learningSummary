@@ -148,6 +148,8 @@
   <a href="https://mp.weixin.qq.com/s/Y1GY4OtpeGvv0U3HNbE9iA" target="_blank">学会MySQL主从复制读写分离，看这篇就够了</a>
 
   <a href="https://mp.weixin.qq.com/s/cg05mCjZGC37spYqU63eMQ" target="_blank">要精通SQL优化？那就学一学explain吧！</a>
+  
+  <a href="https://mp.weixin.qq.com/s/H6nFkdut2_DivjIG8lDHUw" target="_blank">必须了解的MySQL三种日志</a>
 
 ## 中间件
 

@@ -133,6 +133,8 @@
   
   <a href="https://mp.weixin.qq.com/s/gwYJeEBVRgD6SkZWoP-skg" target="_blank">ELK是个啥？看完就懂了！</a>
   
+  <a href="https://mp.weixin.qq.com/s/fJErXzhQUvGOLTmQIXMkag" target="_blank">超详细的Sentinel入门</a>
+  
 ## 微服务架构
 
   <a href="https://mp.weixin.qq.com/s/ZWkCuBHiZay6tawdPRDMew" target="_blank">SpringCloud微服务：注册中心</a>

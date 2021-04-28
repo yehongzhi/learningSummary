@@ -155,6 +155,8 @@
 
   <a href="https://mp.weixin.qq.com/s/Cwg8MXeIDNF3elf-yesQIg" target="_blank">什么是脏读、不可重复读、幻读？</a>
 
+  <a href="https://mp.weixin.qq.com/s/AsYq9Qj9aSV0O8MvzuA7zQ" target="_blank">谈谈对MySQL的MVCC的理解</a>
+
 ## 中间件
 
   <a href="https://mp.weixin.qq.com/s/RhXe3cF_B3p78I2mEXY9EQ" target="_blank">超详细的RabbitMQ入门</a>

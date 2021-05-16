@@ -171,6 +171,8 @@
   
   <a href="https://mp.weixin.qq.com/s/J5lqxFj64A9LO0n7dgCJ7g" target="_blank">怎么在Java中自定义注解？</a>
   
+  <a href="https://mp.weixin.qq.com/s/cINRfuthJlnd5rUSVKAuXA" target="_blank">深入理解String类</a>
+  
 ## 遇到的坑
 
   <a href="https://mp.weixin.qq.com/s/TJilUSaSVvjibhIivyJJwQ" target="_blank">List集合的坑</a>

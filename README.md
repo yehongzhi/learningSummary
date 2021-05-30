@@ -78,6 +78,8 @@
   <a href="https://mp.weixin.qq.com/s/cA4VnufqC2MGqY_LnUoWiA" target="_blank">详细讲解！从JVM直到类加载器</a>
   
   <a href="https://mp.weixin.qq.com/s/7ju2RuFKoUYwzBCXzPbE6w" target="_blank">聊聊JVM中的垃圾回收(GC)</a>
+  
+  <a href="https://mp.weixin.qq.com/s/Xt6k-_7m-gwlZKXNNbUpbg" target="_blank">OOM怎么办，教你生成dump文件以及查看</a>
 
 ## 缓存服务
 
@@ -156,6 +158,8 @@
   <a href="https://mp.weixin.qq.com/s/Cwg8MXeIDNF3elf-yesQIg" target="_blank">什么是脏读、不可重复读、幻读？</a>
 
   <a href="https://mp.weixin.qq.com/s/AsYq9Qj9aSV0O8MvzuA7zQ" target="_blank">谈谈对MySQL的MVCC的理解</a>
+  
+  <a href="https://mp.weixin.qq.com/s/DxcllV4ZgJU8tift10hUgg" target="_blank">什么是雪花ID？</a>
 
 ## 中间件
 

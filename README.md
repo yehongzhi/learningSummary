@@ -160,6 +160,8 @@
   <a href="https://mp.weixin.qq.com/s/AsYq9Qj9aSV0O8MvzuA7zQ" target="_blank">谈谈对MySQL的MVCC的理解</a>
   
   <a href="https://mp.weixin.qq.com/s/DxcllV4ZgJU8tift10hUgg" target="_blank">什么是雪花ID？</a>
+  
+  <a href="https://mp.weixin.qq.com/s/9_qSsh6iyg0x9pFb-lrF6A" target="_blank">谈谈MYSQL索引是如何提高查询效率的</a>
 
 ## 中间件
 

@@ -179,6 +179,8 @@
   
   <a href="https://mp.weixin.qq.com/s/cINRfuthJlnd5rUSVKAuXA" target="_blank">深入理解String类</a>
   
+  <a href="https://mp.weixin.qq.com/s/zwG2gFS2zXK2-GQ8vx5hlw" target="_blank">Java基础不简单，谈谈hashCode()和equals()之间的联系</a>
+  
 ## 遇到的坑
 
   <a href="https://mp.weixin.qq.com/s/TJilUSaSVvjibhIivyJJwQ" target="_blank">List集合的坑</a>

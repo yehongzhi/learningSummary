@@ -110,6 +110,8 @@
   <a href="https://mp.weixin.qq.com/s/GVBrFoJAkD2yW4rCIbEa2g" target="_blank">SpringBoot启动都做了什么？看完就懂了！</a>
   
   <a href="https://mp.weixin.qq.com/s/o-abJ8AWlosZqqkfctoTAw" target="_blank">Spring用了哪些设计模式？</a>
+  
+  <a href="https://mp.weixin.qq.com/s/S1EG-Q1ZL9XVeo-kU0PV8A" target="_blank">Mybatis-Plus，真香！</a>
 
 ## 网络编程
 

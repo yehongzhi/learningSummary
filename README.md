@@ -72,6 +72,8 @@
   <a href="https://mp.weixin.qq.com/s/FjLl9POXHqI8ca9EQHCCCw" target="_blank">详细讲解并发编程中不得不学的AQS<a/>
   
   <a href="https://mp.weixin.qq.com/s/gr0i1HGZHbI3xmhyyFiuYQ" target="_blank">死磕synchronized关键字底层原理</a>
+  
+  <a href="https://mp.weixin.qq.com/s/tlfcKQxoReJEAbpUJZuGoQ" target="_blank">重温并发知识，从ThreadLocal开始</a>
 
 ## JVM核心知识
 
@@ -112,6 +114,8 @@
   <a href="https://mp.weixin.qq.com/s/o-abJ8AWlosZqqkfctoTAw" target="_blank">Spring用了哪些设计模式？</a>
   
   <a href="https://mp.weixin.qq.com/s/S1EG-Q1ZL9XVeo-kU0PV8A" target="_blank">Mybatis-Plus，真香！</a>
+  
+  <a href="https://mp.weixin.qq.com/s/-u9ll1m89JqA-LslmdKZKA" target="_blank">Mybatis-Plus，BaseMapper源码分析</a>
 
 ## 网络编程
 

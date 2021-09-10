@@ -10,7 +10,7 @@ tags:
 
 # 思维导图
 
-![](https://user-gold-cdn.xitu.io/2020/7/26/17389a94030dbf28?w=729&h=515&f=png&s=44034)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/26/17389a94030dbf28~tplv-t2oaga2asx-watermark.awebp)
 
 # 一、什么是消息队列
 
@@ -20,7 +20,7 @@ tags:
 
 <!--more-->
 
-![](https://user-gold-cdn.xitu.io/2020/7/19/1736753c4753c6f9?w=436&h=93&f=png&s=8826)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/19/1736753c4753c6f9~tplv-t2oaga2asx-watermark.awebp)
 
 # 二、为什么使用消息队列
 
@@ -28,15 +28,15 @@ tags:
 
 - **解耦**。如图所示。假设有系统B、C、D都需要系统A的数据，于是系统A调用三个方法发送数据到B、C、D。这时，系统D不需要了，那就需要在系统A把相关的代码删掉。假设这时有个新的系统E需要数据，这时系统A又要增加调用系统E的代码。为了降低这种强耦合，就可以使用MQ，**系统A只需要把数据发送到MQ，其他系统如果需要数据，则从MQ中获取即可**。
 
-![](https://user-gold-cdn.xitu.io/2020/7/19/173678c7a81cc1c0?w=589&h=254&f=png&s=20463)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/19/173678c7a81cc1c0~tplv-t2oaga2asx-watermark.awebp)
 
 - 异步。如图所示。一个客户端请求发送进来，系统A会调用系统B、C、D三个系统，同步请求的话，响应时间就是系统A、B、C、D的总和，也就是800ms。**如果使用MQ，系统A发送数据到MQ，然后就可以返回响应给客户端，不需要再等待系统B、C、D的响应，可以大大地提高性能**。对于一些非必要的业务，比如发送短信，发送邮件等等，就可以采用MQ。
 
-![](https://user-gold-cdn.xitu.io/2020/7/19/17367945a8c4df73?w=570&h=264&f=png&s=13623)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/19/17367945a8c4df73~tplv-t2oaga2asx-watermark.awebp)
 
 - 削峰。如图所示。这其实是MQ一个很重要的应用。假设系统A在某一段时间请求数暴增，有5000个请求发送过来，系统A这时就会发送5000条SQL进入MySQL进行执行，MySQL对于如此庞大的请求当然处理不过来，MySQL就会崩溃，导致系统瘫痪。**如果使用MQ，系统A不再是直接发送SQL到数据库，而是把数据发送到MQ，MQ短时间积压数据是可以接受的，然后由消费者每次拉取2000条进行处理，防止在请求峰值时期大量的请求直接发送到MySQL导致系统崩溃**。
 
-![](https://user-gold-cdn.xitu.io/2020/7/19/17367a9d902cca4f?w=759&h=335&f=png&s=34834)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/19/17367a9d902cca4f~tplv-t2oaga2asx-watermark.awebp)
 
 # 三、RabbitMQ的特点
 
@@ -59,50 +59,50 @@ RabbitMQ是一款使用Erlang语言开发的，实现AMQP(高级消息队列协�
 
 首先到erlang[官网](http://www.erlang.org/downloads)下载win10版安装包。
 
-![](https://user-gold-cdn.xitu.io/2020/7/21/17371b11e8ce24fc?w=610&h=383&f=png&s=42809)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/21/17371b11e8ce24fc~tplv-t2oaga2asx-watermark.awebp)
 
 下载完之后，就得到这个东西：
 
-![](https://user-gold-cdn.xitu.io/2020/7/21/17371b35ca09e258?w=120&h=152&f=png&s=3625)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/21/17371b35ca09e258~tplv-t2oaga2asx-watermark.awebp)
 
 接着双击安装，一直点next(下一步)就行了，安装完之后，配置环境变量。
 
-![](https://user-gold-cdn.xitu.io/2020/7/21/17371b5796ccda18?w=648&h=176&f=png&s=12500)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/21/17371b5796ccda18~tplv-t2oaga2asx-watermark.awebp)
 
-![](https://user-gold-cdn.xitu.io/2020/7/21/17371b63e3dd7f73?w=591&h=312&f=png&s=28042)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/21/17371b63e3dd7f73~tplv-t2oaga2asx-watermark.awebp)
 
 使用cmd命令，输入 erl -version 验证：
 
-![](https://user-gold-cdn.xitu.io/2020/7/21/17371bac494381d6?w=475&h=50&f=png&s=2778)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/21/17371bac494381d6~tplv-t2oaga2asx-watermark.awebp)
 
 ### 4.1.2 安装RabbitMQ服务端
 在RabbitMQ的[gitHub项目](https://github.com/rabbitmq/rabbitmq-server/releases/tag/v3.7.3)中，下载window版本的服务端安装包。
 
-![](https://user-gold-cdn.xitu.io/2020/7/21/17371bf868e203f4?w=394&h=169&f=png&s=19585)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/21/17371bf868e203f4~tplv-t2oaga2asx-watermark.awebp)
 
 下载后，就得到这个东西：
 
-![](https://user-gold-cdn.xitu.io/2020/7/21/17371c1d6501ab40?w=117&h=153&f=png&s=3533)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/21/17371c1d6501ab40~tplv-t2oaga2asx-watermark.awebp)
 
 接着到双击安装，一直点下一步安装即可，安装完成后，找到安装目录：
 
-![](https://user-gold-cdn.xitu.io/2020/7/21/17371c5bccf4f9d5?w=618&h=280&f=png&s=40338)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/21/17371c5bccf4f9d5~tplv-t2oaga2asx-watermark.awebp)
 
 在此目录下打开cmd命令，输入rabbitmq-plugins enable rabbitmq_management命令安装管理页面的插件：
 
-![](https://user-gold-cdn.xitu.io/2020/7/21/17371c7989899657?w=718&h=161&f=png&s=11588)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/21/17371c7989899657~tplv-t2oaga2asx-watermark.awebp)
 
 然后双击rabbitmq-server.bat启动脚本，然后打开服务管理可以看到RabbitMQ正在运行：
 
-![](https://user-gold-cdn.xitu.io/2020/7/21/17371ca5f47fce8b?w=1176&h=332&f=png&s=95743)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/21/17371ca5f47fce8b~tplv-t2oaga2asx-watermark.awebp)
 
 这时，打开浏览器输入`http://localhost:15672`，账号密码默认是：guest/guest
 
-![](https://user-gold-cdn.xitu.io/2020/7/21/17371cb642afc306?w=379&h=170&f=png&s=8715)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/21/17371cb642afc306~tplv-t2oaga2asx-watermark.awebp)
 
 到这一步，安装就大功告成了！
 
-![](https://user-gold-cdn.xitu.io/2020/7/21/17371cc62006368a?w=1296&h=506&f=png&s=65917)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/21/17371cc62006368a~tplv-t2oaga2asx-watermark.awebp)
 
 ## 4.2 永远的Hello Word
 
@@ -118,7 +118,7 @@ RabbitMQ是一款使用Erlang语言开发的，实现AMQP(高级消息队列协�
 
 一般需要创建一个公共项目common，共享一些配置，比如队列主题，交换机名称，路由匹配键名称等等。
 
-![](https://user-gold-cdn.xitu.io/2020/7/22/17376a8962ac345e?w=1187&h=422&f=png&s=87972)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/22/17376a8962ac345e~tplv-t2oaga2asx-watermark.awebp)
 
 首先在application.yml文件加上RabbitMQ的配置信息：
 ```yml
@@ -212,29 +212,29 @@ public class RabbitMQController {
 
 生产者写完之后，就写消费者端的代码，消费者很简单。maven依赖，yml文件配置和生产者一样。只需要创建一个类，@RabbitListener注解写上监听队列的名称，如图所示：
 
-![](https://user-gold-cdn.xitu.io/2020/7/22/17376b4781b8bd8a?w=1198&h=380&f=png&s=66605)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/22/17376b4781b8bd8a~tplv-t2oaga2asx-watermark.awebp)
 
 **这里有个小坑**，一开始RabbitMQ服务器里还没有创建队列：
 
-![](https://user-gold-cdn.xitu.io/2020/7/22/17376bcd4d88602d?w=628&h=287&f=png&s=18084)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/22/17376bcd4d88602d~tplv-t2oaga2asx-watermark.awebp)
 
 这时如果启动消费者，会报错：
 
-![](https://user-gold-cdn.xitu.io/2020/7/22/17376bd6f8340df0?w=1241&h=128&f=png&s=34738)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/22/17376bd6f8340df0~tplv-t2oaga2asx-watermark.awebp)
 
 要先启动生产者，发送一条消息：
 
-![](https://user-gold-cdn.xitu.io/2020/7/22/17376bef5bc1dec1?w=934&h=241&f=png&s=21574)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/22/17376bef5bc1dec1~tplv-t2oaga2asx-watermark.awebp)
 
-![](https://user-gold-cdn.xitu.io/2020/7/22/17376c019fa7c8bb?w=778&h=273&f=png&s=27026)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/22/17376c019fa7c8bb~tplv-t2oaga2asx-watermark.awebp)
 
 最后再启动消费者，进行消费：
 
-![](https://user-gold-cdn.xitu.io/2020/7/22/17376c132059ba20?w=1164&h=264&f=png&s=95439)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/22/17376c132059ba20~tplv-t2oaga2asx-watermark.awebp)
 
 这时候就会持续监听队列的消息，只要生产者发送一条消息到MQ，消费者就消费一条。我这里尝试发送4条：
 
-![](https://user-gold-cdn.xitu.io/2020/7/22/17376c3ca37adf87?w=1139&h=111&f=png&s=36994)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/22/17376c3ca37adf87~tplv-t2oaga2asx-watermark.awebp)
 
 由于队列不存在，启动消费者报错的这个问题。最好的方法是生产者和消费者都尝试创建队列，怎么写呢，有很多方式，我这里用一个相对简单一点的：
 
@@ -295,7 +295,7 @@ public class RabbitDemoConsumer {
 
 这些组成部分是如何协同工作的呢，大概的流程如下，请看下图：
 
-![](https://user-gold-cdn.xitu.io/2020/7/22/1737728b72852d77?w=620&h=344&f=png&s=18810)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/22/1737728b72852d77~tplv-t2oaga2asx-watermark.awebp)
 
 - 消息生产者连接到RabbitMQ Broker，创建connection，开启channel。
 - 生产者声明交换机类型、名称、是否持久化等。
@@ -313,7 +313,7 @@ public class RabbitDemoConsumer {
 
 见文知意，直连交换机意思是此交换机需要绑定一个队列，要求**该消息与一个特定的路由键完全匹配**。简单点说就是一对一的，点对点的发送。
 
-![](https://user-gold-cdn.xitu.io/2020/7/22/173773fe45569885?w=468&h=267&f=png&s=65093)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/22/173773fe45569885~tplv-t2oaga2asx-watermark.awebp)
 
 完整的代码就是上面的HelloWord的例子，不再重复代码。
 
@@ -321,7 +321,7 @@ public class RabbitDemoConsumer {
 
 这种类型的交换机需要将队列绑定到交换机上。**一个发送到交换机的消息都会被转发到与该交换机绑定的所有队列上**。很像子网广播，每台子网内的主机都获得了一份复制的消息。简单点说就是发布订阅。
 
-![](https://user-gold-cdn.xitu.io/2020/7/23/173774203ee5afd3?w=465&h=299&f=png&s=79778)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/23/173774203ee5afd3~tplv-t2oaga2asx-watermark.awebp)
 
 代码怎么写呢，演示一下：
 
@@ -467,15 +467,15 @@ public class FanoutExchangeConsumerB {
 ```
 然后启动生产者和消费者两个项目，可以看到管理界面创建了一个FanoutExchange交换机和两个队列，并且绑定了：
 
-![](https://user-gold-cdn.xitu.io/2020/7/24/1737c7793f971244?w=647&h=367&f=png&s=27283)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/24/1737c7793f971244~tplv-t2oaga2asx-watermark.awebp)
 
 使用POSTMAN进行发送消息，测试：
 
-![](https://user-gold-cdn.xitu.io/2020/7/24/1737c7829f71b8f2?w=944&h=276&f=png&s=22267)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/24/1737c7829f71b8f2~tplv-t2oaga2asx-watermark.awebp)
 
 然后可以看到控制台，两个队列同时都收到了相同的消息，形成了发布订阅的效果：
 
-![](https://user-gold-cdn.xitu.io/2020/7/24/1737c794ca2a0106?w=961&h=95&f=png&s=32829)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/24/1737c794ca2a0106~tplv-t2oaga2asx-watermark.awebp)
 
 ## 6.3 Topic Exchange
 
@@ -485,7 +485,7 @@ public class FanoutExchangeConsumerB {
 
 `#` 符号：匹配一个或多个词。比如"rabbit.#"既可以匹配到"rabbit.a.b"、"rabbit.a"，也可以匹配到"rabbit.a.b.c"。
 
-![](https://user-gold-cdn.xitu.io/2020/7/24/1737cc2e35abb0c2?w=787&h=472&f=png&s=44593)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/24/1737cc2e35abb0c2~tplv-t2oaga2asx-watermark.awebp)
 
 废话不多说，代码演示一下：
 
@@ -648,21 +648,21 @@ public class TopicExchangeConsumerC {
 
 大功告成，然后启动项目开始调试。启动成功后可以看到队列和路由键绑定的关系：
 
-![](https://user-gold-cdn.xitu.io/2020/7/24/17380fc32fda0fa2?w=518&h=379&f=png&s=26158)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/24/17380fc32fda0fa2~tplv-t2oaga2asx-watermark.awebp)
 
 通过POSTMAN进行测试，测试一下 rabbit.# 的路由键是否能够匹配成功：
 
-![](https://user-gold-cdn.xitu.io/2020/7/24/17380fd5053e38bc?w=934&h=253&f=png&s=23565)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/24/17380fd5053e38bc~tplv-t2oaga2asx-watermark.awebp)
 
 测试成功，队列A消费到消息：
 
-![](https://user-gold-cdn.xitu.io/2020/7/24/17380fe5e090ae23?w=1104&h=46&f=png&s=14452)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/24/17380fe5e090ae23~tplv-t2oaga2asx-watermark.awebp)
 
 接着测试 a.* 路由键，发送 routingKey = a.b ：
 
-![](https://user-gold-cdn.xitu.io/2020/7/24/17381008ddcc1a5b?w=937&h=233&f=png&s=21310)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/24/17381008ddcc1a5b~tplv-t2oaga2asx-watermark.awebp)
 
-![](https://user-gold-cdn.xitu.io/2020/7/24/173810049898ae69?w=948&h=51&f=png&s=12864)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/24/173810049898ae69~tplv-t2oaga2asx-watermark.awebp)
 
 比较常用的就是以上三种：直连(DirectExchange)，发布订阅(FanoutExchange)，通配符(TopicExchange)。熟练运用这三种交换机类型，基本上可以解决大部分的业务场景。
 
@@ -674,9 +674,9 @@ FanoutExchange不需要绑定routingKey，所以性能相对TopicExchange会好�
 
 这种交换机用的相对没这么多。**它跟上面三种有点区别，它的路由不是用routingKey进行路由匹配，而是在匹配请求头中所带的键值进行路由**。如图所示：
 
-![](https://user-gold-cdn.xitu.io/2020/7/25/1738499671e1955e?w=828&h=252&f=png&s=34357)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/25/1738499671e1955e~tplv-t2oaga2asx-watermark.awebp)
 
-![](https://user-gold-cdn.xitu.io/2020/7/25/173849a014d576e5?w=799&h=252&f=png&s=34238)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/25/173849a014d576e5~tplv-t2oaga2asx-watermark.awebp)
 
 创建队列需要设置绑定的头部信息，有两种模式：**全部匹配和部分匹配**。如上图所示，交换机会根据生产者发送过来的头部信息携带的键值去匹配队列绑定的键值，路由到对应的队列。代码怎么实现呢，往下看演示代码：
 
@@ -818,19 +818,19 @@ public class HeadersExchangeConsumerB {
 
 大功告成~启动项目，打开管理界面，我们可以看到交换机绑定队列的信息：
 
-![](https://user-gold-cdn.xitu.io/2020/7/25/17384a470aa42de3?w=570&h=364&f=png&s=31572)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/25/17384a470aa42de3~tplv-t2oaga2asx-watermark.awebp)
 
 跟上面示意图一样~证明没有问题，一切尽在掌握之中。使用POSTMAN发送，测试全匹配的队列A：
 
-![](https://user-gold-cdn.xitu.io/2020/7/25/17384a81c6f1551f?w=939&h=264&f=png&s=24756)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/25/17384a81c6f1551f~tplv-t2oaga2asx-watermark.awebp)
 
-![](https://user-gold-cdn.xitu.io/2020/7/25/17384a87b820f9f3?w=471&h=63&f=png&s=6969)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/25/17384a87b820f9f3~tplv-t2oaga2asx-watermark.awebp)
 
 再测试部分匹配的队列B：
 
-![](https://user-gold-cdn.xitu.io/2020/7/25/17384a9b2293c0e2?w=930&h=258&f=png&s=23945)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/25/17384a9b2293c0e2~tplv-t2oaga2asx-watermark.awebp)
 
-![](https://user-gold-cdn.xitu.io/2020/7/25/17384a9f8bbab549?w=472&h=76&f=png&s=7341)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/7/25/17384a9f8bbab549~tplv-t2oaga2asx-watermark.awebp)
 
 # 总结
 
@@ -852,6 +852,6 @@ public class HeadersExchangeConsumerB {
 **你的点赞是我创作的最大动力**~
 
 想第一时间看到我更新的文章，可以微信搜索公众号「`java技术爱好者`」，**拒绝做一条咸鱼，我是一个努力让大家记住的程序员。我们下期再见！！！**
-![在这里插入图片描述](https://user-gold-cdn.xitu.io/2020/6/30/17305cc08a7ed5d7?w=1180&h=528&f=png&s=152520)
+![在这里插入图片描述](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/6/30/17305cc08a7ed5d7~tplv-t2oaga2asx-watermark.awebp)
 
 > 能力有限，如果有什么错误或者不当之处，请大家批评指正，一起学习交流！

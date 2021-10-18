@@ -116,6 +116,8 @@
   <a href="https://mp.weixin.qq.com/s/S1EG-Q1ZL9XVeo-kU0PV8A" target="_blank">Mybatis-Plus，真香！</a>
   
   <a href="https://mp.weixin.qq.com/s/-u9ll1m89JqA-LslmdKZKA" target="_blank">Mybatis-Plus，BaseMapper源码分析</a>
+  
+  <a href="https://mp.weixin.qq.com/s/8HSzJJwNia7DNHoPyze9pQ" target="_blank">Mybatis-Plus整合多数据源，怎么玩？</a>
 
 ## 网络编程
 

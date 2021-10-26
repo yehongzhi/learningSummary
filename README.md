@@ -118,6 +118,8 @@
   <a href="https://mp.weixin.qq.com/s/-u9ll1m89JqA-LslmdKZKA" target="_blank">Mybatis-Plus，BaseMapper源码分析</a>
   
   <a href="https://mp.weixin.qq.com/s/8HSzJJwNia7DNHoPyze9pQ" target="_blank">Mybatis-Plus整合多数据源，怎么玩？</a>
+  
+  <a href="https://mp.weixin.qq.com/s/GgyhRiBIUCSFoSgk5F91BQ" target="_blank">mybatis-plus多数据源解析</a>
 
 ## 网络编程
 

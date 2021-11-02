@@ -152,6 +152,8 @@
   <a href="https://mp.weixin.qq.com/s/ZWkCuBHiZay6tawdPRDMew" target="_blank">SpringCloud微服务：注册中心</a>
   
   <a href="https://mp.weixin.qq.com/s/di2oyCDy7xrAp7rv9eIjFw" target="_blank">SpringCloud微服务：OpenFeign</a>
+  
+  <a href="https://mp.weixin.qq.com/s/bqfc_3qA6U5zHMhRIOtgYg" target="_blank">网关很重要，学一学Gateway</a>
 
 ## MySQL数据库
 

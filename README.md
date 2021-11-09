@@ -155,6 +155,8 @@
   
   <a href="https://mp.weixin.qq.com/s/bqfc_3qA6U5zHMhRIOtgYg" target="_blank">网关很重要，学一学Gateway</a>
 
+  <a href="https://mp.weixin.qq.com/s/MZ2HzHdh9zwwNZ60pOhDIQ" target="_blank">Gateway服务网关之过滤器</a>
+
 ## MySQL数据库
 
   <a href="https://mp.weixin.qq.com/s/Kb0pP8eWBl8zjn7scbUpWA" target="_blank">超详细canal入门，看这篇就够了</a>

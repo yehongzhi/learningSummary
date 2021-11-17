@@ -147,6 +147,8 @@
   
   <a href="https://mp.weixin.qq.com/s/fJErXzhQUvGOLTmQIXMkag" target="_blank">超详细的Sentinel入门</a>
   
+  <a href="https://mp.weixin.qq.com/s/enFDtgnF0yS2PhRnyug71w" target="_blank">这波啊~这波是多环境配置</a>
+  
 ## 微服务架构
 
   <a href="https://mp.weixin.qq.com/s/ZWkCuBHiZay6tawdPRDMew" target="_blank">SpringCloud微服务：注册中心</a>

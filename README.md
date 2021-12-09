@@ -130,6 +130,8 @@
   <a href="https://mp.weixin.qq.com/s/Wj73aY-44MaoBuRaRR1ElQ" target="_blank">超详细Netty入门，看这篇就够了！</a>
   
   <a href="https://mp.weixin.qq.com/s/ng4uz902npl6vKSeuZKSNw" target="_blank">Netty进阶之粘包和拆包问题</a>
+  
+  <a href="https://mp.weixin.qq.com/s/Q4rO3ycGtBLGlnPdlcHh2g" target="_blank">不懂就学，什么是JWT？</a>
 
 ## 分布式
 

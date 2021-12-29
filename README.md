@@ -200,7 +200,11 @@
   <a href="https://mp.weixin.qq.com/s/zwG2gFS2zXK2-GQ8vx5hlw" target="_blank">Java基础不简单，谈谈hashCode()和equals()之间的联系</a>
   
   <a href="https://mp.weixin.qq.com/s/PcFKKemIcl8PNe7N8GfFwA" target="_blank">Java基础不简单，泛型很重要！</a>
-  
+
+## 大数据
+
+  <a href="https://mp.weixin.qq.com/s/LIIJgok-3Z9WcIWToi4U3Q" target="_blank">学习大数据从安装Hadoop开始（单机版）</a>
+
 ## 遇到的坑
 
   <a href="https://mp.weixin.qq.com/s/TJilUSaSVvjibhIivyJJwQ" target="_blank">List集合的坑</a>

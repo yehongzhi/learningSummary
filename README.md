@@ -205,6 +205,8 @@
 
   <a href="https://mp.weixin.qq.com/s/LIIJgok-3Z9WcIWToi4U3Q" target="_blank">学习大数据从安装Hadoop开始（单机版）</a>
 
+  <a href="https://mp.weixin.qq.com/s/Hv2UMvTzPSdZbowgRX6xaQ" target="_blank">通过WordCount学习MapReduce</a>
+
 ## 遇到的坑
 
   <a href="https://mp.weixin.qq.com/s/TJilUSaSVvjibhIivyJJwQ" target="_blank">List集合的坑</a>

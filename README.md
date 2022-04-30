@@ -189,6 +189,8 @@
   
   <a href="https://mp.weixin.qq.com/s/t5fMV6KGUxfCergngyBhuw" target="_blank">带你入门Kafka，你知道的越多不知道的也越多！</a>
 
+  <a href="https://mp.weixin.qq.com/s/-vz1OHEwi_hNH1RqpmqIyg" target="_blank">Pulsar中间件入门学习</a>
+
 ## Java基础
 
   <a href="https://mp.weixin.qq.com/s/UFWx5ZBjY9Nsxb-Lf84euw" target="_blank">Java基础不简单，讲一讲枚举</a>
@@ -206,6 +208,8 @@
   <a href="https://mp.weixin.qq.com/s/LIIJgok-3Z9WcIWToi4U3Q" target="_blank">学习大数据从安装Hadoop开始（单机版）</a>
 
   <a href="https://mp.weixin.qq.com/s/Hv2UMvTzPSdZbowgRX6xaQ" target="_blank">通过WordCount学习MapReduce</a>
+
+  <a href="https://mp.weixin.qq.com/s/Mvn_kEOUUW_IMPWsIuxpEA" target="_blank">几个关于MapReduce的小例子</a>
 
 ## 遇到的坑
 
